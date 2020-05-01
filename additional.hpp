@@ -5,8 +5,8 @@ void swap(int *a, int *b)
     *b = t;
 }
 
-int maxInArray(int *array, int size){
-    int max = 0;
+float maxInArray(float *array, int size){
+    float max = 0.0;
     for (int i = 0; i < size; i++){
         if (array[i] > max)
             max = array[i];
